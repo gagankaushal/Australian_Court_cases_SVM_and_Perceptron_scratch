@@ -1,0 +1,25 @@
+('##########', ' PERCEPTRON - RESULTS ', '##########')
+('F1 score for classifier =', 98.39, '%')
+
+('Time taken to read Testing and Training Data and preprocess them (days:seconds:microsecond):', datetime.timedelta(0, 2400, 746215))
+('Time taken to train the Perceptron model (days:seconds:microsecond):', datetime.timedelta(0, 1009, 124341))
+('Time taken to test the Perceptron model (days:seconds:microsecond):', datetime.timedelta(0, 204, 948016))
+('Total Time taken by Perceptron:', datetime.timedelta(0, 3614, 818572))
+
+('Number of True Positives', 365)
+('Number of False Positives', 0)
+('Number of False Negatives', 12)
+('Number of True Negatives', 18347)
+
+('##########', ' SUPPORT VECTOR - RESULTS ', '##########')
+('F1 score for classifier =', 98.79, '%')
+
+('Time taken to read Testing and Training Data and preprocess them (days:seconds:microsecond):', datetime.timedelta(0, 2400, 746215))
+('Time taken to train the Support Vector Machine model(days:seconds:microsecond):', datetime.timedelta(0, 1715, 655587))
+('Time taken to test using the Support Vector Machine model (days:seconds:microsecond):', datetime.timedelta(0, 138, 874497))
+('Total Time taken by Support Vector Machine (days:seconds:microsecond):', datetime.timedelta(0, 4255, 276299))
+
+('Number of True Positives', 368)
+('Number of False Positives', 0)
+('Number of False Negatives', 9)
+('Number of True Negatives', 18347)
